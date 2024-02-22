@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../client-display-mqtt-esp"
+		},
+		{
+			"name": "broker-mqtt-esp",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
