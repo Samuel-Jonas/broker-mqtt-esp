@@ -27,9 +27,12 @@ void connect_to_wifi() {
 void setup() {
   Serial.begin(115200);
 
+  delay(5000);
+
   connect_to_wifi();
 
   broker.init(MQTT_PORT);
+  Serial.println("broker was initialized");
 
   //if (!WiFi.config(local_IP, gateway, subnet)) {
     //Serial.println("Failed to configure wifi connection");
